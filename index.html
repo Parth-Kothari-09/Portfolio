@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth Kothari - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <h1>Parth Kothari</h1>
+        <div class="nav-links">
+            <button class="nav-btn active" data-section="home">Home</button>
+            <button class="nav-btn" data-section="about">About</button>
+            <button class="nav-btn" data-section="projects">Projects</button>
+            <button class="nav-btn" data-section="experience">Experience</button>
+            <button class="nav-btn" data-section="contact">Contact</button>
+        </div>
+    </nav>
+
+    <section id="home" class="active-section">
+        <img src="images/img.jpg" alt="Parth Kothari">
+        <h2>Hi, I'm Parth Kothari</h2>
+        <p>A passionate B.Tech IT student driven by innovation and problem-solving</p>
+        <a href="Portfolio/Parth Kothari_Resume.pdf" download class="download-btn">↓ View Resume</a>
+    </section>
+
+    <section id="about" class="hidden-section">
+        <h2>About Me</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <h3>Academic Journey</h3>
+                <ul>
+                    <li><strong>Class 10:</strong> 92% - First Step Higher Sec School, Chhindwara (MP)</li>
+                    <li><strong>Class 12:</strong> 80.6% - Pioneer Convent School, Indore (MP)</li>
+                    <li><strong>B.Tech IT:</strong> 8.43 CGPA - KJ Somaiya College of Engineering, Mumbai</li>
+                </ul>
+            </div>
+            <div class="about-card">
+                <h3>Career Aspirations</h3>
+                <p>Passionate about leveraging technology to create innovative solutions. Interested in web development,
+                    UI/UX design, and exploring emerging technologies that can make a positive impact.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="hidden-section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>EduCrafters</h3>
+                <p>Interactive educational website for IT department using HTML, CSS, JavaScript, XML, and XSLT</p>
+                <div class="technologies">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span><span>XML</span><span>XSLT</span>
+                </div>
+                <a href="https://edu-crafters.vercel.app/" target="_blank">↗ View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Type Speed</h3>
+                <p>Python-based speed typing test application using Tkinter, measuring typing speed and tracking high
+                    scores</p>
+                <div class="technologies">
+                    <span>Python</span><span>Tkinter</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>ShowBazaar</h3>
+                <p>Interactive ticket booking website for movies, events, sports, and comedy shows</p>
+                <div class="technologies">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
+                </div>
+                <a href="https://github.com/Parth-Kothari-09/ShowBazaar.git" target="_blank">↗ View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>YatriBabu</h3>
+                <p>Travel planning platform designed with intuitive UI/UX layouts in Figma</p>
+                <div class="technologies">
+                    <span>Figma</span><span>UI/UX Design</span>
+                </div>
+                <a href="https://www.figma.com/design/xFfSX9TEsCupIvwRLEYMNC/Yatri-Babu" target="_blank">↗ View
+                    Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="hidden-section">
+        <h2>Community Experience</h2>
+        <div class="experience-cards">
+            <div class="experience-card">
+                <h3>Rotary Club</h3>
+                <p>Contributed to organizing community events and medical camps, demonstrating leadership and community
+                    service skills.</p>
+            </div>
+            <div class="experience-card">
+                <h3>Indian Medical Association (IMA)</h3>
+                <p>Actively participated in and helped organize blood donation camps, showing commitment to social
+                    causes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="hidden-section">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <br><br><br>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>✉</span>
+                    <span>kothariparth09@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <span>📞</span>
+                    <span>8770160897</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/parth-kothari-593756257/">LinkedIn</a>
+                    <a href="https://github.com/Parth-Kothari-09" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
